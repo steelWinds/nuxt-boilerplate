@@ -1,0 +1,18 @@
+{
+  "$schemaOrg": {
+    "name": "",
+    "telephone": "",
+    "email": "",
+    "address": {
+      "streetAddress": "",
+      "addressLocality": "",
+      "addressRegion": "",
+      "postalCode": "",
+      "addressCountry": ""
+    }
+  },
+  "nuxtSiteConfig": {
+    "name": "Nuxt Boilerplate",
+    "description": "Description of Nuxt Boilerplate"
+  }
+}

@@ -1,0 +1,46 @@
+@layer theme, utilities;
+
+/* *The preflight styles are imported separately because they would otherwise conflict with our styles.  */
+@import 'tailwindcss/theme.css' layer(theme);
+@import 'tailwindcss/utilities.css' layer(utilities);
+
+/* *Source all ./src dir content  */
+@source "../../../**/*.{js,ts,vue}";
+
+:root {
+  font-family: PTSans, sans-serif;
+  font-size: 16px;
+}
+
+@theme {
+  /* =======================
+    Font
+  ======================= */
+  --font-display: 'PTSans';
+
+  /* =======================
+    Breakpoints
+  ======================= */
+
+  --breakpoint-xs: 375px;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1100px;
+  --breakpoint-2xl: 1440px;
+
+  /* =======================
+    Colors
+  ======================= */
+
+  --color-primary: oklch(20.841% 0.04169 266.371deg);
+  --color-secondary: oklch(78.616% 0.19199 155.656deg);
+
+  /* =======================
+    Font size
+  ======================= */
+
+  --text-32: 32px;
+  --text-24: 24px;
+  --text-16: 16px;
+}

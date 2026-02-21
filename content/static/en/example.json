@@ -1,0 +1,116 @@
+{
+  "hello_world": "Hello, Nuxt Boilerplate!",
+  "plugged_modules": [
+    {
+      "src": "/images/static/logos/docker.svg",
+      "alt": "Docker",
+      "href": "https://content.nuxt.com/docs/deploy/docker"
+    },
+    {
+      "src": "/images/static/logos/eslint.svg",
+      "alt": "ESLint",
+      "href": "https://eslint.nuxt.com/"
+    },
+    {
+      "src": "/images/static/logos/husky.svg",
+      "alt": "Husky",
+      "href": "https://typicode.github.io/husky/"
+    },
+    {
+      "src": "/images/static/logos/i18n.svg",
+      "alt": "i18n",
+      "href": "https://i18n.nuxtjs.org/"
+    },
+    {
+      "src": "/images/static/logos/lint-staged.png",
+      "alt": "Lint Staged",
+      "href": "https://github.com/lint-staged/lint-staged"
+    },
+    {
+      "src": "/images/static/logos/motion-v.png",
+      "alt": "Motion-v",
+      "href": "https://motion.dev/docs/vue"
+    },
+    {
+      "src": "/images/static/logos/nuxt.svg",
+      "alt": "Nuxt",
+      "href": "https://nuxt.com/"
+    },
+    {
+      "src": "/images/static/logos/pinia.svg",
+      "alt": "Pinia",
+      "href": "https://pinia.vuejs.org/ssr/nuxt.html"
+    },
+    {
+      "src": "/images/static/logos/postcss.svg",
+      "alt": "PostCSS",
+      "href": "https://postcss.org/"
+    },
+    {
+      "src": "/images/static/logos/reka-ui.svg",
+      "alt": "Reka-UI",
+      "href": "https://reka-ui.com/"
+    },
+    {
+      "src": "/images/static/logos/stylelint.svg",
+      "alt": "Stylelint",
+      "href": "https://stylelint.io/"
+    },
+    {
+      "src": "/images/static/logos/swiper.svg",
+      "alt": "Swiper",
+      "href": "https://nuxt.com/modules/swiper"
+    },
+    {
+      "src": "/images/static/logos/tailwindcss.svg",
+      "alt": "Tailwindcss",
+      "href": "https://tailwindcss.com/"
+    },
+    {
+      "src": "/images/static/logos/valibot.svg",
+      "alt": "Valibot",
+      "href": "https://valibot.dev/"
+    },
+    {
+      "src": "/images/static/logos/vee-validate.svg",
+      "alt": "Vee-Validate",
+      "href": "https://vee-validate.logaretm.com/v4/"
+    },
+    {
+      "src": "/images/static/logos/vscode.svg",
+      "alt": "VSCode",
+      "href": "https://code.visualstudio.com/"
+    },
+    {
+      "src": "/images/static/logos/sidebase.png",
+      "alt": "Sidebase Auth",
+      "href": "https://auth.sidebase.io/"
+    }
+  ],
+  "examples_links": [
+    {
+      "title": "Auth",
+      "href": "/examples/auth"
+    },
+    {
+      "title": "Content",
+      "href": "/examples/content"
+    },
+    {
+      "title": "PWA",
+      "href": "/examples/pwa"
+    },
+    {
+      "title": "Validating",
+      "href": "/examples/forms"
+    },
+    {
+      "title": "Motion-V",
+      "href": "/examples/animate"
+    },
+    {
+      "title": "i18n",
+      "href": "/examples/i18n"
+    }
+  ]
+}

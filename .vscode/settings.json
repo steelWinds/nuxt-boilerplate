@@ -1,0 +1,17 @@
+{
+  "eslint.useFlatConfig": true,
+  "eslint.validate": [
+    "typescript",
+    "vue",
+    "json"
+  ],
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "css.lint.unknownAtRules": "ignore",
+  "tailwindCSS.lint.invalidConfigPath": "ignore",
+  "stylelint.validate": [
+    "vue",
+    "css"
+  ]
+}
