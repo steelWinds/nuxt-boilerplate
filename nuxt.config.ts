@@ -33,6 +33,24 @@ export default defineNuxtConfig({
     },
   },
 
+  routeRules: {
+    '/': {
+      redirect: '/examples/welcome',
+    },
+    '/examples': {
+      redirect: '/examples/welcome',
+    },
+    '/examples/welcome': {
+      swr: 86400, // * SWR with update in 1 day (24 hours)
+    },
+    '/api/v1/**': {
+      cors: true,
+      headers: {
+        'access-control-allow-methods': 'GET, POST, PUT, DELETE',
+      },
+    },
+  },
+
   /* =======================
     CSS settings
   ======================= */
@@ -67,7 +85,7 @@ export default defineNuxtConfig({
 
   vite: {
     plugins: [
-      // @ts-expect-error vite type mismatch between @nuxt/schema and @tailwindcss/vite
+      // @ts-expect-error FIX: Vite version mismatch between @nuxt/schema and @tailwindcss/vite
       tailwindcss(),
     ],
   },
@@ -148,7 +166,7 @@ export default defineNuxtConfig({
 
   sitemap: {
     sources: [
-      '/api/__sitemap__/urls',
+      '/api/v1/__sitemap__/urls',
     ],
   },
 
