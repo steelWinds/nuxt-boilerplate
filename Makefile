@@ -39,7 +39,7 @@ build:
 
 run:
 	@echo "Run Docker Image - $(IMAGE) on port $(HOST_PORT):$(CONTAINER_PORT)..."
-	docker run --env-file .env -p $(HOST_PORT):$(CONTAINER_PORT) $(IMAGE)
+	docker run --env-file .env -d -p $(HOST_PORT):$(CONTAINER_PORT) --name $(IMAGE_NAME) $(IMAGE)
 	@echo "Docker container is running, name: $(IMAGE_NAME), port: $(HOST_PORT)"
 
 stop:
