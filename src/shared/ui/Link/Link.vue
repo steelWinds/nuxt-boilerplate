@@ -6,7 +6,7 @@
 
 <style scoped>
 .link {
-  display: flex;
+  display: inline-flex;
   place-content: center;
   padding: 12px 24px;
   font-size: var(--text-16);

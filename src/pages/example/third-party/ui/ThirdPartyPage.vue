@@ -1,15 +1,25 @@
-<!-- eslint-disable no-alert -->
 <script setup lang="ts">
-const pwa = usePWA();
+const { onLoaded } = useScriptNpm({
+  packageName: 'js-confetti',
+  file: 'dist/js-confetti.browser.js',
+  version: '0.12.0',
+  scriptOptions: {
+    use() {
+      // @ts-expect-error For third-party script
+      return { JSConfetti: window.JSConfetti };
+    },
+  },
+});
 
-watch(() => pwa?.offlineReady, offlineReady => offlineReady && alert('Offline Ready!'));
+onLoaded(({ JSConfetti }) => {
+  const confetti = new JSConfetti();
+
+  confetti.addConfetti({ emojis: ['⚡️'] });
+});
 </script>
 
 <template>
   <div>
-    <VitePwaManifest />
-    <ClientOnly>
-      {{ pwa }}
-    </ClientOnly>
+    Confetti!
   </div>
 </template>

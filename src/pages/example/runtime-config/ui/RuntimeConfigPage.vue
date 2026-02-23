@@ -1,11 +1,10 @@
 <!-- eslint-disable no-alert -->
 <script setup lang="ts">
-const pwa = usePWA();
+const config = useRuntimeConfig();
 </script>
 
 <template>
   <div>
-    <VitePwaManifest />
-    {{ pwa }}
+    {{ config.public }}
   </div>
 </template>

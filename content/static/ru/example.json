@@ -89,8 +89,8 @@
   ],
   "examples_links": [
     {
-      "title": "Auth",
-      "href": "/examples/auth"
+      "title": "Third Party",
+      "href": "/examples/third-party"
     },
     {
       "title": "Content",
@@ -101,16 +101,16 @@
       "href": "/examples/pwa"
     },
     {
-      "title": "Validating",
-      "href": "/examples/forms"
-    },
-    {
       "title": "Motion-V",
       "href": "/examples/animate"
     },
     {
       "title": "i18n",
       "href": "/examples/i18n"
+    },
+    {
+      "title": "Runtime Config",
+      "href": "/examples/runtime-config"
     }
   ]
 }

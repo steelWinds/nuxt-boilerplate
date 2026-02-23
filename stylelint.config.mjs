@@ -16,10 +16,12 @@ export default {
     // *Allow kebab-case for custom properties
     'custom-property-pattern': ['^(--)?[a-z0-9]+(-[a-z0-9]+)*(__[a-z0-9]+(-[a-z0-9]+)*)?(--[a-z0-9]+(-[a-z0-9]+)*)?$'],
 
+    'selector-class-pattern': '^(?:(?:block|element|modifier)-)?[a-z]+(?:-[a-z]+)*(?:__[a-z]+(?:-[a-z]+)*)?(?:--[a-z]+(?:-[a-z]+)*)?$',
+
     // *Allow enhanced precision for value and color functions
     'number-max-precision': [
       4,
-      { "insideFunctions": { "/^(oklch|oklab|lch|lab)$/": 8 } }
-    ]
+      { insideFunctions: { '/^(oklch|oklab|lch|lab)$/': 8 } },
+    ],
   },
 };

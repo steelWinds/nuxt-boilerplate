@@ -33,6 +33,12 @@ export default defineNuxtConfig({
     },
   },
 
+  runtimeConfig: {
+    public: {
+      apiBase: '',
+    },
+  },
+
   routeRules: {
     '/': {
       redirect: '/examples/welcome',

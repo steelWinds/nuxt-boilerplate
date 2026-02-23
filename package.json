@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev --host",
+    "dev": "nuxt cleanup && nuxt dev --host --clear --open",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
 

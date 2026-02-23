@@ -12,6 +12,7 @@ ENV HUSKY=0
 
 ARG NODE_ENV=production
 ARG NUXT_PUBLIC_I18N_BASE_URL=/
+ARG NUXT_PUBLIC_API_BASE=/
 ARG OWN_SW=true
 
 COPY package*.json .
@@ -50,12 +51,12 @@ USER node
 
 ENV NODE_ENV=production
 ENV NUXT_PUBLIC_I18N_BASE_URL=/
+ENV NUXT_PUBLIC_API_BASE=/
 ENV OWN_SW=true
 
 COPY --from=builder --chown=node:node /app/.output ./.output
 COPY --from=builder --chown=node:node /app/public ./public
 COPY --from=builder --chown=node:node /app/node_modules ./node_modules
-COPY --from=builder --chown=node:node /app/.env ./
 
 EXPOSE 3000
 
