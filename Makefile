@@ -5,7 +5,6 @@ CONTAINER_PORT            ?= 3000
 
 # App vars
 NODE_ENV                  ?= production
-NUXT_PUBLIC_I18N_BASE_URL ?= http://localhost:3000
 OWN_SW                    ?= true
 
 # Full name of image
@@ -30,12 +29,7 @@ help:
 # Commands
 build:
 	@echo "Build Docker Image $(IMAGE)..."
-	docker build \
-    --build-arg NODE_ENV=$(NODE_ENV) \
-    --build-arg OWN_SW=$(OWN_SW) \
-    --build-arg NUXT_PUBLIC_I18N_BASE_URL=$(NUXT_PUBLIC_I18N_BASE_URL) \
-    --build-arg NUXT_PUBLIC_API_BASE=$(NUXT_PUBLIC_API_BASE) \
-    -t $(IMAGE) .
+	docker build --build-arg NODE_ENV=$(NODE_ENV) --build-arg OWN_SW=$(OWN_SW) -t $(IMAGE) .
 	@echo "Image is build: $(IMAGE)"
 
 run:

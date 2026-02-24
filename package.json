@@ -10,7 +10,8 @@
     "build": "nuxt build",
     "dev": "nuxt cleanup && nuxt dev --host --clear --open",
     "generate": "nuxt generate",
-    "preview": "nuxt preview",
+    "start:dev": "dotenvx run -f .env -- node .output/server/index.mjs",
+    "start:production": "dotenvx run -f .env.production -- node .output/server/index.mjs",
     "lint:eslint": "eslint --fix",
     "lint:stylelint": "stylelint \"**/*.{css,vue}\" --fix",
     "fsd:lint": "steiger ./src",
@@ -23,6 +24,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@dotenvx/dotenvx": "^1.52.0",
     "@nuxt/a11y": "^1.0.0-alpha.1",
     "@nuxt/content": "^3.11.2",
     "@nuxt/fonts": "^0.14.0",

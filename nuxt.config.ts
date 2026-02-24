@@ -33,12 +33,6 @@ export default defineNuxtConfig({
     },
   },
 
-  runtimeConfig: {
-    public: {
-      apiBase: '',
-    },
-  },
-
   routeRules: {
     '/': {
       redirect: '/examples/welcome',
@@ -149,8 +143,9 @@ export default defineNuxtConfig({
     ],
   ],
 
-  pinia: {
-    storesDirs: [],
+  robots: {
+    mergeWithRobotsTxtPath: 'public/_robots.txt',
+    robotsTxt: true,
   },
 
   fonts: {
@@ -219,20 +214,25 @@ export default defineNuxtConfig({
         },
       ],
     },
+
     workbox: {
       navigateFallback: '/',
       globPatterns: ['**/*.{js,css,html,png,svg,ico,json}'],
     },
+
     injectManifest: {
       globPatterns: ['**/*.{js,css,html,png,svg,ico,json}'],
     },
+
     experimental: {
       enableWorkboxPayloadQueryParams: true,
     },
+
     client: {
       installPrompt: true,
       periodicSyncForUpdates: 20,
     },
+
     devOptions: {
       enabled: true,
       suppressWarnings: true,
