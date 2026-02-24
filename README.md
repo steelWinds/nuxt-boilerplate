@@ -165,7 +165,7 @@ Or yarn:
 
 Start development server:
 
-    npm dev
+    npm run dev
 
 ---
 
@@ -173,11 +173,11 @@ Start development server:
 
 Build the application:
 
-    npm build
+    npm run build
 
 Preview production build:
 
-    npm preview
+    npm run preview
 
 ---
 
@@ -230,7 +230,7 @@ Unit tests are powered by Vitest.
 
 Run tests:
 
-    pnpm test
+    npm run test:run
 
 ---
 
