@@ -6,7 +6,7 @@ const ease = spring(0.5, 0.8);
 </script>
 
 <template>
-  <div class="container">
+  <div class="container mx-auto">
     <div
       :style="{
         transition: `transform ${ease}`,

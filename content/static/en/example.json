@@ -62,6 +62,11 @@
       "href": "https://nuxt.com/modules/swiper"
     },
     {
+      "src": "/images/static/logos/nuxtjsseo.png",
+      "alt": "NuxtJS-Seo",
+      "href": "https://nuxtseo.com/"
+    },
+    {
       "src": "/images/static/logos/tailwindcss.svg",
       "alt": "Tailwindcss",
       "href": "https://tailwindcss.com/"
@@ -80,11 +85,6 @@
       "src": "/images/static/logos/vscode.svg",
       "alt": "VSCode",
       "href": "https://code.visualstudio.com/"
-    },
-    {
-      "src": "/images/static/logos/sidebase.png",
-      "alt": "Sidebase Auth",
-      "href": "https://auth.sidebase.io/"
     }
   ],
   "examples_links": [
@@ -93,24 +93,32 @@
       "href": "/examples/third-party"
     },
     {
-      "title": "Content",
+      "title": "Content with i18n",
       "href": "/examples/content"
+    },
+    {
+      "title": "Icons",
+      "href": "/examples/icons"
     },
     {
       "title": "PWA",
       "href": "/examples/pwa"
     },
     {
-      "title": "Motion-V",
-      "href": "/examples/animate"
-    },
-    {
-      "title": "i18n",
-      "href": "/examples/i18n"
-    },
-    {
       "title": "Runtime Config",
       "href": "/examples/runtime-config"
+    },
+    {
+      "title": "Motion-V",
+      "href": "/examples/motion-v"
+    },
+    {
+      "title": "Vee-Validate",
+      "href": "/examples/vee-validate"
+    },
+    {
+      "title": "Pinia (Persisted)",
+      "href": "/examples/pinia"
     }
   ]
 }

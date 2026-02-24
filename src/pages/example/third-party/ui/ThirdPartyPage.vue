@@ -14,7 +14,12 @@ const { onLoaded } = useScriptNpm({
 onLoaded(({ JSConfetti }) => {
   const confetti = new JSConfetti();
 
-  confetti.addConfetti({ emojis: ['⚡️'] });
+  confetti.addConfetti({
+    emojis: ['⚡️'],
+    confettiRadius: 2,
+    emojiSize: 48,
+    confettiNumber: 10,
+  });
 });
 </script>
 

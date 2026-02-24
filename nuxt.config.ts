@@ -136,6 +136,7 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@vite-pwa/nuxt',
     '@pinia/nuxt',
+    'pinia-plugin-persistedstate/nuxt',
     '@vueuse/nuxt',
     'nuxt-swiper',
     'reka-ui/nuxt',
@@ -147,6 +148,10 @@ export default defineNuxtConfig({
       },
     ],
   ],
+
+  pinia: {
+    storesDirs: [],
+  },
 
   fonts: {
     defaults: {

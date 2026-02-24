@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { useLocaleQueryCollectionData } from '~/shared/composables/useLocaleQueryCollectionData';
-import { Link } from '~/shared/ui/Link';
 import DecryptedText from './DecryptedText.vue';
+import Link from './Link.vue';
 import LogoLoop from './LogoLoop.vue';
 
 const { locale, defaultLocale } = useI18n();
@@ -35,7 +35,7 @@ const logosImages = computed(() => data?.value?.meta?.plugged_modules ?? []);
                 :logos="logosImages"
                 :speed="50"
                 :logo-height="46"
-                :gap="10"
+                :gap="20"
                 :pause-on-hover="false"
                 :scale-on-hover="true"
                 fade-out
