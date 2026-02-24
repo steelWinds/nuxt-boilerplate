@@ -119,6 +119,10 @@
     {
       "title": "Pinia (Persisted)",
       "href": "/examples/pinia"
+    },
+    {
+      "title": "Swiper",
+      "href": "/examples/swiper"
     }
   ]
 }
