@@ -25,7 +25,7 @@ const json = computed(() => JSON.stringify(data?.value?.meta ?? {}, null, 2));
         v-for="currentLocale in locales"
         :key="currentLocale.code"
         :to="switchLocalePath(currentLocale.code)"
-        class="p-2 px-6 bg-secondary rounded-md text-primary font-bold"
+        class="p-2 px-6 bg-secondary rounded-md text-primary font-bold inline-flex"
       >
         {{ currentLocale.code }}
       </NuxtLink>
