@@ -28,6 +28,7 @@ includes:
 - PWA support
 - Linting and Git hooks
 - Testing setup
+- Built-in libs: vueuse, ufo
 
 The goal is to eliminate repetitive setup work and enforce best
 practices from the start.
@@ -36,28 +37,31 @@ practices from the start.
 
 ## Technology Stack
 
-| Category             | Tool            | Puprose                       |
-| -------------------- | --------------- | ----------------------------- |
-| Framework            | Nuxt 4          | SSR / SSG meta-framework      |
-| UI Layer             | Vue 3, Reka-UI  | Component-based UI            |
-| Language             | TypeScript      | Static typing                 |
-| Bundler              | Vite            | Fast build tool               |
-| Styling              | Tailwind CSS    | Utility-first CSS             |
-| CSS Processing       | PostCSS         | CSS transformations           |
-| State Management     | Pinia           | Centralized state             |
-| Forms                | VeeValidate     | Form handling                 |
-| Schema Validation    | Valibot         | Runtime validation            |
-| Animations           | Motion One      | Lightweight animations        |
-| Slider               | Swiper          | Touch slider                  |
-| Internationalization | Nuxt i18n       | Multi-language support        |
-| Content              | Nuxt Content    | Content management            |
-| Testing              | Vitest          | Unit testing                  |
-| Linting              | ESLint          | JavaScript/TypeScript linting |
-| Style Linting        | Stylelint       | CSS linting                   |
-| Git Hooks            | Husky           | Pre-commit hooks              |
-| Staged Linting       | lint-staged     | Lint staged files             |
-| Containerization     | Docker          | Environment isolation         |
-| PWA                  | Vite Plugin PWA | Progressive Web App support   |
+| Category             | Tool            | Puprose                                                                              |
+| -------------------- | --------------- | ------------------------------------------------------------------------------------ |
+| Framework            | Nuxt 4          | SSR / SSG meta-framework                                                             |
+| UI Layer             | Vue 3, Reka-UI  | Component-based UI                                                                   |
+| Language             | TypeScript      | Static typing                                                                        |
+| Bundler              | Vite            | Fast build tool                                                                      |
+| Styling              | Tailwind CSS    | Utility-first CSS                                                                    |
+| CSS Processing       | PostCSS         | CSS transformations                                                                  |
+| State Management     | Pinia           | Centralized state                                                                    |
+| Forms                | VeeValidate     | Form handling                                                                        |
+| Schema Validation    | Valibot         | Runtime validation                                                                   |
+| Animations           | Motion One      | Lightweight animations                                                               |
+| Slider               | Swiper          | Touch slider                                                                         |
+| Internationalization | Nuxt i18n       | Multi-language support                                                               |
+| Content              | Nuxt Content    | Content management                                                                   |
+| Testing              | Vitest          | Unit testing                                                                         |
+| Linting              | ESLint          | JavaScript/TypeScript linting                                                        |
+| Style Linting        | Stylelint       | CSS linting                                                                          |
+| Git Hooks            | Husky           | Pre-commit hooks                                                                     |
+| Staged Linting       | lint-staged     | Lint staged files                                                                    |
+| Containerization     | Docker          | Environment isolation                                                                |
+| PWA                  | Vite Plugin PWA | Progressive Web App support                                                          |
+| Images               | Nuxt Image      | Plug-and-play image optimization for Nuxt apps                                       |
+| Third-Party          | Nuxt Scripts    | Lets you load third-party scripts with better performance, privacy, security and DX. |
+| Built-in libs        | ufo, VueUse     | Convenient features for creating applications                                        |
 
 ## Architecture
 
