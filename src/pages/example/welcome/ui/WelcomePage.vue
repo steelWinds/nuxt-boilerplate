@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useLocaleQueryCollectionData } from '~/shared/composables/useLocaleQueryCollectionData';
+import { useLocaleQueryCollectionData } from '~/shared/composables';
 import DecryptedText from './DecryptedText.vue';
 import Link from './Link.vue';
 import LogoLoop from './LogoLoop.vue';

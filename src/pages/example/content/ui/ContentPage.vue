@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useLocaleQueryCollectionData } from '~/shared/composables/useLocaleQueryCollectionData';
+import { useLocaleQueryCollectionData } from '~/shared/composables';
 
 const { locale, defaultLocale, locales } = useI18n();
 

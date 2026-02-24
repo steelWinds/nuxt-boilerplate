@@ -1,1 +1,1 @@
-npx lint-staged
+npm run fsd:lint && npx lint-staged

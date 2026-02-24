@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { useCounterStore } from '~/entities/example/store/counter.store';
+import { useCounterStore } from '~/entities/example';
 
 const counterStore = useCounterStore();
 </script>

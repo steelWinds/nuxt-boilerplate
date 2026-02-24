@@ -1,0 +1,32 @@
+srcDir: ./src
+
+outputDir: ./fsd-crawler-output
+
+outputFormats:
+  - html
+
+excludeDirs:
+  - node_modules
+  - .git
+  - dist
+  - .output
+  - build
+  - coverage
+  - server
+  - content
+  - .husky
+  - .data
+  - .vscode
+  - public
+  - test
+  - .nuxt
+
+port: 3123
+
+customLayers:
+  - app
+  - pages
+  - widgets
+  - features
+  - entities
+  - shared
