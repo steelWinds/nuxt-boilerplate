@@ -13,6 +13,6 @@
   },
   "nuxtSiteConfig": {
     "name": "Nuxt Boilerplate",
-    "description": "Description of Nuxt Boilerplate"
+    "description": "Описание Nuxt Boilerplate"
   }
 }

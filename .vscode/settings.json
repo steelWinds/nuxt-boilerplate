@@ -1,5 +1,4 @@
 {
-  // Default
   "prettier.enable": false,
   "editor.formatOnSave": false,
   "editor.codeActionsOnSave": {
@@ -7,7 +6,6 @@
     "source.organizeImports": "never"
   },
 
-  // ESLint
   "eslint.useFlatConfig": true,
   "eslint.validate": [
     "javascript",
@@ -33,13 +31,11 @@
     "postcss"
   ],
 
-  // TailwindCSS
   "files.associations": {
     "*.css": "tailwindcss"
   },
   "tailwindCSS.lint.invalidConfigPath": "ignore",
 
-  // CSS
   "css.lint.unknownAtRules": "ignore",
   "stylelint.validate": [
     "vue",
