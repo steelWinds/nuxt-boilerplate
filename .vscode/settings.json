@@ -1,15 +1,46 @@
 {
+  // Default
+  "prettier.enable": false,
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never"
+  },
+
+  // ESLint
   "eslint.useFlatConfig": true,
   "eslint.validate": [
+    "javascript",
+    "javascriptreact",
     "typescript",
+    "typescriptreact",
     "vue",
-    "json"
+    "html",
+    "markdown",
+    "json",
+    "jsonc",
+    "yaml",
+    "toml",
+    "xml",
+    "gql",
+    "graphql",
+    "astro",
+    "svelte",
+    "css",
+    "less",
+    "scss",
+    "pcss",
+    "postcss"
   ],
+
+  // TailwindCSS
   "files.associations": {
     "*.css": "tailwindcss"
   },
-  "css.lint.unknownAtRules": "ignore",
   "tailwindCSS.lint.invalidConfigPath": "ignore",
+
+  // CSS
+  "css.lint.unknownAtRules": "ignore",
   "stylelint.validate": [
     "vue",
     "css"

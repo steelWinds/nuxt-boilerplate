@@ -14,6 +14,7 @@ export default {
     'declaration-property-value-no-unknown': null,
 
     // *Allow kebab-case for custom properties
+
     'custom-property-pattern': ['^(--)?[a-z0-9]+(-[a-z0-9]+)*(__[a-z0-9]+(-[a-z0-9]+)*)?(--[a-z0-9]+(-[a-z0-9]+)*)?$'],
 
     'selector-class-pattern': '^(?:(?:block|element|modifier)-)?[a-z]+(?:-[a-z]+)*(?:__[a-z]+(?:-[a-z]+)*)?(?:--[a-z]+(?:-[a-z]+)*)?$',

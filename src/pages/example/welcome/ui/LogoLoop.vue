@@ -374,11 +374,28 @@ export { LogoContent };
     <template v-if="props.fadeOut">
       <div
         aria-hidden
-        class="pointer-events-none absolute inset-y-0 left-0 z-1 w-[clamp(24px,8%,120px)] bg-[linear-gradient(to_right,var(--logoloop-fadeColor,var(--logoloop-fadeColorAuto))_0%,rgba(0,0,0,0)_100%)]"
+        class="
+          pointer-events-none
+          absolute
+          inset-y-0
+          left-0
+          z-1
+          w-[clamp(24px,8%,120px)]
+          bg-[linear-gradient(to_right,var(--logoloop-fadeColor,var(--logoloop-fadeColorAuto))_0%,rgba(0,0,0,0)_100%)]
+        "
       />
+
       <div
         aria-hidden
-        class="pointer-events-none absolute inset-y-0 right-0 z-1 w-[clamp(24px,8%,120px)] bg-[linear-gradient(to_left,var(--logoloop-fadeColor,var(--logoloop-fadeColorAuto))_0%,rgba(0,0,0,0)_100%)]"
+        class="
+          pointer-events-none
+          absolute
+          inset-y-0
+          right-0
+          z-1
+          w-[clamp(24px,8%,120px)]
+          bg-[linear-gradient(to_left,var(--logoloop-fadeColor,var(--logoloop-fadeColorAuto))_0%,rgba(0,0,0,0)_100%)]
+        "
       />
     </template>
 
@@ -402,7 +419,16 @@ export { LogoContent };
         >
           <a
             v-if="logo.href"
-            class="inline-flex items-center no-underline rounded transition-opacity duration-200 ease-linear hover:opacity-80 focus-visible:outline focus-visible:outline-current focus-visible:outline-offset-2"
+            class="
+              inline-flex
+              items-center
+              no-underline
+              rounded
+              transition-opacity
+              duration-200
+              ease-linear
+              hover:opacity-80 focus-visible:outline focus-visible:outline-current focus-visible:outline-offset-2
+            "
             :href="logo.href"
             :aria-label="getItemAriaLabel(logo) || 'logo link'"
             target="_blank"
