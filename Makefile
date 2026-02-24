@@ -23,7 +23,7 @@ help:
 	@echo "---------------------------------------"
 	@echo "  build   - Build Docker Image"
 	@echo "  run     - Run container (stops old one if exists, builds if missing)"
-	@echo "  stop    - Stop and delete container"
+	@echo "  stop    - Stop and remove container"
 	@echo "  clean   - Remove built image"
 	@echo "---------------------------------------"
 

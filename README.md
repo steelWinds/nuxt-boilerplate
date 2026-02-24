@@ -195,9 +195,13 @@ Run container:
 
     make run
 
-Stop and delete Docker container:
+Stop and remove Docker container:
 
     make stop
+
+Remove Docker image:
+
+    make clean
 
 ---
 
