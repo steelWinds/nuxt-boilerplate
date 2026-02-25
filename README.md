@@ -201,7 +201,7 @@ Stop and remove Docker container:
 
 Remove Docker image:
 
-    make clean
+    make start
 
 ---
 
