@@ -26,7 +26,7 @@ const logosImages = computed(() => data?.value?.meta?.plugged_modules ?? []);
         <div class="w-full h-full overflow-auto relative z-1">
           <div class="grid justify-items-center w-full max-w-100 p-6 mx-auto">
             <NuxtImg
-              class="w-full max-w-64 object-cover aspect-video cursor-target"
+              class="welcome-page-logo cursor-target"
               src="/images/logo.png"
             />
 
@@ -70,3 +70,16 @@ const logosImages = computed(() => data?.value?.meta?.plugged_modules ?? []);
     </ClientOnly>
   </div>
 </template>
+
+<style scoped>
+.welcome-page-logo {
+  width: 100%;
+  max-width: 264px;
+  object-fit: cover;
+  aspect-ratio: 16 / 9;
+
+  @media (--breakpoint-xl) {
+    max-width: 100%;
+  }
+}
+</style>

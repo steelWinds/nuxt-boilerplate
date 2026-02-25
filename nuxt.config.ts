@@ -63,6 +63,11 @@ export default defineNuxtConfig({
 
   postcss: {
     plugins: {
+      '@csstools/postcss-global-data': {
+        files: [
+          './src/app/assets/css/tailwind.css',
+        ],
+      },
       'postcss-preset-env': {
         stage: 2,
         features: {
@@ -73,6 +78,7 @@ export default defineNuxtConfig({
           'oklab-function': {
             preserve: true,
           },
+          'custom-media-queries': true,
         },
       },
       // *postcss-pxtorem is required for fluid typography

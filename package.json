@@ -23,6 +23,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@csstools/postcss-global-data": "^4.0.0",
     "@dotenvx/dotenvx": "^1.52.0",
     "@nuxt/a11y": "^1.0.0-alpha.1",
     "@nuxt/content": "^3.11.2",
