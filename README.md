@@ -179,9 +179,9 @@ Build the application:
 
     npm run build
 
-Preview production build:
+Start production build:
 
-    npm run preview
+    npm run start
 
 ---
 
@@ -211,7 +211,7 @@ Remove Docker image:
 | -------------- | ------------------------ |
 | dev            | Start development server |
 | build          | Build for production     |
-| preview        | Preview production build |
+| start          | Start production build   |
 | lint:eslint    | Run ESLint               |
 | lint:stylelint | Run Stylelint            |
 | fsd:lint       | Run FSD steiger linter   |
