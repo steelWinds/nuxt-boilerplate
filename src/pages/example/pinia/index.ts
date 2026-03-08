@@ -1,1 +1,1 @@
-export { default as PwaPage } from './ui/PwaPage.vue';
+export { default as PiniaPage } from './ui/PiniaPage.vue';

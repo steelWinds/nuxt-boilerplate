@@ -140,7 +140,7 @@ export default defineNuxtConfig({
     '@vueuse/nuxt',
     'nuxt-swiper',
     'reka-ui/nuxt',
-    'motion-v/nuxt',
+    '@morev/vue-transitions/nuxt',
     [
       '@vee-validate/nuxt',
       {
@@ -188,6 +188,10 @@ export default defineNuxtConfig({
     langDir: './locales',
     defaultLocale: 'ru',
     strategy: 'prefix_except_default',
+  },
+
+  vueTransitions: {
+    duration: 200,
   },
 
   pwa: {

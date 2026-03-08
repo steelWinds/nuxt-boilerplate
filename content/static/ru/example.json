@@ -27,11 +27,6 @@
       "href": "https://github.com/lint-staged/lint-staged"
     },
     {
-      "src": "/images/static/logos/motion-v.png",
-      "alt": "Motion-v",
-      "href": "https://motion.dev/docs/vue"
-    },
-    {
       "src": "/images/static/logos/nuxt.svg",
       "alt": "Nuxt",
       "href": "https://nuxt.com/"
@@ -109,8 +104,8 @@
       "href": "/examples/runtime-config"
     },
     {
-      "title": "Motion-V",
-      "href": "/examples/motion-v"
+      "title": "Transitions",
+      "href": "/examples/transitions"
     },
     {
       "title": "Vee-Validate",
