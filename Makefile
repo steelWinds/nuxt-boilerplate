@@ -44,6 +44,7 @@ run: build
 		-p $(HOST_PORT):$(CONTAINER_PORT) \
 		--name $(IMAGE_NAME) \
 		-e NITRO_PORT=$(CONTAINER_PORT) \
+    --network=host \
 		$(IMAGE)
 	@echo "Container '$(IMAGE_NAME)' is running, mapped port $(HOST_PORT) -> $(CONTAINER_PORT)"
 
