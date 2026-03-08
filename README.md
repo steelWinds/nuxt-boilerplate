@@ -1,6 +1,7 @@
 # Nuxt Boilerplate
 
 ![GitHub License](https://img.shields.io/github/license/steelWinds/nuxt-boilerplate)
+[![renovate-build](https://github.com/steelWinds/nuxt-boilerplate/actions/workflows/renovate-build.yml/badge.svg?branch=main)](https://github.com/steelWinds/nuxt-boilerplate/actions/workflows/renovate-build.yml)
 
 <div align="center">
   <img width="300" src="./public/images/logo.png" alt="Nuxt Boilerplate Logo">
