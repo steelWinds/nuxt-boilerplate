@@ -94,7 +94,7 @@
         }
       },
       "eslint": "$eslint",
-      "eslint-plugin-jsdoc": "^50.6.1",
+      "eslint-plugin-jsdoc": "^62.0.0",
       "eslint-plugin-pnpm": "^1.5.0",
       "glob": "^13.0.6",
       "minimatch": "10.2.4",
@@ -114,7 +114,7 @@
       }
     },
     "eslint": "$eslint",
-    "eslint-plugin-jsdoc": "^50.6.1",
+    "eslint-plugin-jsdoc": "^62.0.0",
     "eslint-plugin-pnpm": "^1.5.0",
     "glob": "^13.0.6",
     "minimatch": "10.2.4",
