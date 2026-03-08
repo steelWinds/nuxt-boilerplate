@@ -56,7 +56,7 @@ practices from the start.
 | Linting                  | ESLint                 | JavaScript/TypeScript linting                                                        |
 | Style Linting            | Stylelint              | CSS linting                                                                          |
 | Git Hooks                | Husky                  | Pre-commit hooks                                                                     |
-| Staged Linting           | lint-staged            | Lint staged files                                                                    |
+| Staged Linting           | nano-staged            | Tiny tool to run commands                                                            |
 | Containerization         | Docker                 | Environment isolation                                                                |
 | PWA                      | Vite Plugin PWA        | Progressive Web App support                                                          |
 | Images                   | Nuxt Image             | Plug-and-play image optimization for Nuxt apps                                       |
