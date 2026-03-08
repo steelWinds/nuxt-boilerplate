@@ -263,3 +263,4 @@ This project is licensed under the MPL 2.0 License.
 - Issues: [New issue](https://github.com/steelWinds/nuxt-boilerplate/issues)
 - Telegram: @plutograde
 - Email: [Send me an email](mailto:kirillsurov0@gmail.com)
+  test
