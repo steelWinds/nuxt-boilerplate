@@ -191,7 +191,10 @@ export default defineNuxtConfig({
   },
 
   vueTransitions: {
-    duration: 200,
+    defaultProps: {
+      duration: 150,
+      easing: 'cubic-bezier(0.4, 0, 0.2, 1)',
+    },
   },
 
   pwa: {
