@@ -1,5 +1,11 @@
 # Nuxt Boilerplate
 
+A production-ready Nuxt boilerplate with latest Nuxt version, built with Feature-Sliced Design
+(FSD), Docker support, strict typing, linting, testing setup, and modern
+frontend tooling
+
+> Made with love. ❤️
+
 ![GitHub License](https://img.shields.io/github/license/steelWinds/nuxt-boilerplate)
 [![build-validate](https://github.com/steelWinds/nuxt-boilerplate/actions/workflows/build-validate.yml/badge.svg)](https://github.com/steelWinds/nuxt-boilerplate/actions/workflows/build-validate.yml)
 
@@ -7,12 +13,6 @@
   <img width="300" src="./public/images/logo.png" alt="Nuxt Boilerplate Logo">
   <h3 align="center">Nuxt Boilerplate v1</h3>
 </div>
-
-## Description
-
-A production-ready Nuxt boilerplate with latest Nuxt version, built with Feature-Sliced Design
-(FSD), Docker support, strict typing, linting, testing setup, and modern
-frontend tooling
 
 ## Project Purpose
 
